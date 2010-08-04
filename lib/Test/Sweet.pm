@@ -9,7 +9,7 @@ use Test::Sweet::Meta::Method;
 use Devel::Declare;
 use Test::Sweet::Keyword::Test;
 
-our $VERSION = '0.01';
+our $VERSION = '0.01001';
 
 Moose::Exporter->setup_import_methods();
 

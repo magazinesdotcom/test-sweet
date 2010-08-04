@@ -15,6 +15,6 @@ class Test::Sweet::Meta::Test {
     }
 
     # so roles can before/after/around these
-    method BUILD($args) { }
-    method DEMOLISH()   { }
+    method BUILD($args)    { }
+    method DEMOLISH($args) { }
 }
